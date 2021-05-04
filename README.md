@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi there <img src="https://github.com/han1000/han1000/blob/main/wave.gif" width="20px">
+
+<!-- ![](https://komarev.com/ghpvc/?username=han1000&color=fca311) -->
 
 <!--
 **han1000/han1000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
