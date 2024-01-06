@@ -1,10 +1,21 @@
-### Hi there <img src="https://github.com/han1000/han1000/blob/main/wave.gif" width="20px">
+```shell
+hashankur in ~
+$ cat gh
+```
 
-<!-- ![](https://komarev.com/ghpvc/?username=han1000&color=fca311) -->
+```toml
+[hashankur]
+OS              = "NixOS [Hyprland], Android"
+Kernel          = "Software Engineering [SE: 2]"
+Environment     = "Helix, VSCode"
+
+[interests]
+Filetypes       = "JavaScript, Python, Rust, Go"
+Domains         = "Web, DevOps, Systems"
+Paradigms       = "Procedural, Functional"
+```
 
 <!--
-**han1000/han1000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
