@@ -15,6 +15,8 @@ Domains         = "Web, DevOps, Systems"
 Paradigms       = "Procedural, Functional"
 ```
 
+<img align="center" src="https://github-readme-stats-hashankur.vercel.app/api/top-langs/?username=hashankur&layout=compact&langs_count=20&disable_animations=true&theme=graywhite&hide=qml,latte,cmake,php,glsl,hack,scss,objective-c,ruby,starlark,emacs%20lisp,swift,html,c%2B%2B,jupyter%20notebook" alt="hashankur" />
+
 <!--
 Here are some ideas to get you started:
 
