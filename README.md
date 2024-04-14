@@ -5,14 +5,13 @@ $ cat gh
 
 ```toml
 [hashankur]
-OS              = "NixOS [Hyprland], Android"
-Kernel          = "Software Engineering [SE: 2]"
+OS              = "NixOS, Android"
+Kernel          = "Software Engineering #SE.2"
 Environment     = "Helix, VSCode"
 
 [interests]
-Filetypes       = "JavaScript, Python, Rust, Go"
+Filetypes       = "JavaScript, Python, Kotlin, Rust, Go"
 Domains         = "Web, DevOps, Systems"
-Paradigms       = "Procedural, Functional"
 ```
 
 <img src="https://github-readme-stats-hashankur.vercel.app/api/top-langs/?username=hashankur&layout=compact&langs_count=20&disable_animations=true&theme=graywhite&hide=qml,latte,cmake,php,glsl,hack,scss,objective-c,ruby,starlark,emacs%20lisp,swift,html,c%2B%2B,jupyter%20notebook" alt="hashankur" />
