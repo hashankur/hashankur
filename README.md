@@ -14,7 +14,8 @@ Filetypes       = "JavaScript, Python, Kotlin, Rust, Go"
 Domains         = "Web, DevOps, Systems"
 ```
 
-![Top languages](https://github-readme-stats-hashankur.vercel.app/api/top-langs/?username=hashankur&layout=compact&langs_count=20&disable_animations=true&theme=graywhite&hide=qml,latte,cmake,php,glsl,hack,scss,objective-c,ruby,starlark,emacs%20lisp,swift,html,c%2B%2B,jupyter%20notebook,haskell,c) [![roadmap.sh](https://api.roadmap.sh/v1-badge/tall/660fa066da1671f986212599?variant=light&roadmaps=devops%2Cfull-stack%2Candroid%2Cdatastructures-and-algorithms)](https://roadmap.sh)
+![Top languages](http://zcww480.134.209.159.132.sslip.io/top-langs/?username=hashankur&layout=compact&langs_count=20&disable_animations=true&theme=graywhite&hide=qml,latte,cmake,php,glsl,hack,scss,objective-c,ruby,starlark,emacs%20lisp,swift,html,c%2B%2B,jupyter%20notebook,haskell,c) [![roadmap.sh](https://api.roadmap.sh/v1-badge/tall/660fa066da1671f986212599?variant=light&roadmaps=devops%2Cfull-stack%2Candroid%2Cdatastructures-and-algorithms)](https://roadmap.sh)
+
 
 <!--
 Here are some ideas to get you started:
