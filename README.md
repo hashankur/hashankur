@@ -2,6 +2,7 @@
 
 - [Mindtheatre](https://mindtheatre.netlify.app/) - An emotion-based movie recommendation system
 - [Personal website/portfolio](https://hashankur.netlify.app/)
+- [St. Peter's College, Colombo 04 - Negombo Branch](https://spcnegombo.pages.dev/)
 - [Suriya Air Conditioning](https://suriya-aircon.pages.dev/)
 - [E-commerce app](https://github.com/hashankur/fullstack-crud) - Fullstack application with authentication
 
