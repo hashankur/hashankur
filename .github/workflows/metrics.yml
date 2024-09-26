@@ -14,11 +14,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: User
-        uses: lowlighter/metrics@latest
-        with:
-          filename: .cache/user.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+      # - name: User
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: .cache/user.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Languages
         uses: lowlighter/metrics@latest
@@ -32,22 +32,22 @@ jobs:
           plugin_languages_sections: most-used, recently-used
           plugin_languages_ignored: >-
            html, css, qml, latte, cmake, glsl, hack, scss, objective-c, ruby, starlark,
-           emacs lisp, swift, html, c++, c, blade, dart, fennel
+           emacs lisp, swift, html, c++, c, blade, dart, fennel, scheme
 
-      - name: Mildly interesting facts
-        uses: lowlighter/metrics@latest
-        with:
-          filename: .cache/habits-facts.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+      # - name: Mildly interesting facts
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: .cache/habits-facts.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_habits: yes
+      #     plugin_habits_facts: yes
+      #     plugin_habits_charts: yes
 
-      - name: Half-year calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: .cache/isocalendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
+      # - name: Half-year calendar
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: .cache/isocalendar.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_isocalendar: yes
