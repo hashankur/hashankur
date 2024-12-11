@@ -136,17 +136,17 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 21.3kb of code in 50 edited files across 26 commits over last 12 days</small>
+                <small>estimation from 41.3kb of code in 70 edited files across 33 commits over last 13 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="265.1186001296176" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="265.1186001296176" y="0" width="81.26766040181465" height="8" fill="#ff5a03"/>
-                    <rect mask="url(#languages-bar)" x="346.38626053143224" y="0" width="59.35580038885288" height="8" fill="#7e7eff"/>
-                    <rect mask="url(#languages-bar)" x="405.7420609202851" y="0" width="44.74789371354504" height="8" fill="#ffaff3"/>
-                    <rect mask="url(#languages-bar)" x="450.48995463383017" y="0" width="9.510045366169798" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="305.57142857142856" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="305.57142857142856" y="0" width="55.21877551020408" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="360.7902040816326" y="0" width="51.18204081632653" height="8" fill="#ff5a03"/>
+                    <rect mask="url(#languages-bar)" x="411.9722448979592" y="0" width="28.18204081632653" height="8" fill="#ffaff3"/>
+                    <rect mask="url(#languages-bar)" x="440.1542857142857" y="0" width="19.845714285714287" height="8" fill="#3178c6"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -158,20 +158,20 @@
                                 TSX
                             </div>
                             <small>
-                                <div>252 lines</div>
-                                <div>57.63%</div>
+                                <div>535 lines</div>
+                                <div>66.43%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#7e7eff" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ff5a03" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Nix
+                                Astro
                             </div>
                             <small>
-                                <div>112 lines</div>
-                                <div>12.9%</div>
+                                <div>71 lines</div>
+                                <div>11.13%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -182,8 +182,8 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>8 lines</div>
-                                <div>2.07%</div>
+                                <div>26 lines</div>
+                                <div>4.31%</div>
                             </small>
                         </div>
                     </section>
@@ -191,13 +191,13 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#ff5a03" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#7e7eff" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Astro
+                                Nix
                             </div>
                             <small>
-                                <div>71 lines</div>
-                                <div>17.67%</div>
+                                <div>151 lines</div>
+                                <div>12%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -209,7 +209,7 @@
                             </div>
                             <small>
                                 <div>57 lines</div>
-                                <div>9.73%</div>
+                                <div>6.13%</div>
                             </small>
                         </div>
                     </section>
