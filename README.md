@@ -11,7 +11,7 @@
 
 <br>
 
-![Top languages](http://zcww480.134.209.159.132.sslip.io/top-langs/?username=hashankur&layout=compact&langs_count=20&disable_animations=true&theme=graywhite&hide=qml,latte,cmake,glsl,hack,scss,objective-c,ruby,starlark,emacs%20lisp,swift,html,c%2B%2B,jupyter%20notebook,haskell,blade,dart,css) <!-- [![roadmap.sh](https://api.roadmap.sh/v1-badge/tall/660fa066da1671f986212599?variant=light&roadmaps=devops%2Cfull-stack%2Candroid%2Cdatastructures-and-algorithms)](https://roadmap.sh) -->
+![Top languages](https://github-readme-stats-cloudflare.aeonian-adroit24.workers.dev/api/top-langs?username=hashankur&layout=compact&langs_count=20&disable_animations=true&theme=graywhite&hide=qml,latte,cmake,glsl,hack,scss,objective-c,ruby,starlark,emacs%20%20lisp,swift,html,c%2B%2B,jupyter%20notebook,haskell,blade,dart,css) <!-- [![roadmap.sh](https://api.roadmap.sh/v1-badge/tall/660fa066da1671f986212599?variant=light&roadmaps=devops%2Cfull-stack%2Candroid%2Cdatastructures-and-algorithms)](https://roadmap.sh) -->
 
 
 <!--
