@@ -1,12 +1,13 @@
 # Some of my recent work
 
-- [Mindtheatre](https://hashankur.netlify.app/projects/5) - An emotion-based movie recommendation system
-- [Personal website/portfolio](https://hashankur.netlify.app/)
+- [Desktop Shell](https://github.com/hashankur/desktop-shell) - Custom shell for wayland compositors supporting wayland-layer-shell
+- [Personal website/portfolio](https://hashankur.pages.dev/)
 - [Suriya Air Conditioning](https://suriya-aircon.pages.dev/)
 - [E-commerce app](https://github.com/hashankur/fullstack-crud) - Fullstack application with authentication
 
 ## Archived
 
+- [Mindtheatre](https://hashankur.pages.dev/projects/mindtheatre/) - An emotion-based movie recommendation system
 - [St. Peter's College, Colombo 04 - Negombo Branch](https://spcnegombo.pages.dev/)
 
 <br>
