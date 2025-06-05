@@ -1,0 +1,53 @@
+name: GitHub Readme Stats
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */24 * * *
+  # push:
+  #   branches:
+  #     - master
+
+jobs:
+  generate-langs:
+    strategy:
+      matrix:
+        theme: [light, dark]
+    runs-on: ubuntu-latest
+    name: Generate top language cards
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate stats-${{ matrix.theme }}
+        uses: UlyssesZh/grs-action@master
+        id: generate
+        with:
+          token: ${{ secrets.PAT_1 }}
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=20&disable_animations=true&hide=qml,latte,cmake,glsl,hack,scss,objective-c,ruby,starlark,emacs%20lisp,swift,html,c%2B%2B,jupyter%20notebook,haskell,blade,dart,css&theme=${{ matrix.theme }}
+          path: grs/langs-${{ matrix.theme }}.svg
+          card: langs
+      - name: Upload langs-${{ matrix.theme }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: langs-${{ matrix.theme }}
+          path: grs
+  push:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    name: Push
+    needs: [generate-langs]
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: langs-dark
+          path: grs
+      - uses: actions/download-artifact@v4
+        with:
+          name: langs-light
+          path: grs
+      - name: Push
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: grs
+          build_dir: grs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
