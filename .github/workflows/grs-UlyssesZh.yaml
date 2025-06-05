@@ -11,7 +11,7 @@ jobs:
   generate-langs:
     strategy:
       matrix:
-        theme: [light, dark]
+        theme: [catppuccin_latte, github_dark]
     runs-on: ubuntu-latest
     name: Generate top language cards
     steps:
@@ -22,7 +22,7 @@ jobs:
         id: generate
         with:
           token: ${{ secrets.PAT_1 }}
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=20&disable_animations=true&hide=qml,latte,cmake,glsl,hack,scss,objective-c,ruby,starlark,emacs%20lisp,swift,html,c%2B%2B,jupyter%20notebook,haskell,blade,dart,css&theme=${{ matrix.theme }}
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=20&disable_animations=true&hide_border=false&hide=qml,latte,cmake,glsl,hack,scss,objective-c,ruby,starlark,emacs%20lisp,swift,html,c%2B%2B,jupyter%20notebook,haskell,blade,dart,css&theme=${{ matrix.theme }}
           path: grs/langs-${{ matrix.theme }}.svg
           card: langs
       - name: Upload langs-${{ matrix.theme }}
@@ -38,11 +38,11 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: langs-dark
+          name: langs-github_dark
           path: grs
       - uses: actions/download-artifact@v4
         with:
-          name: langs-light
+          name: langs-catppuccin_latte
           path: grs
       - name: Push
         uses: crazy-max/ghaction-github-pages@v4
