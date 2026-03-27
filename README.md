@@ -4,7 +4,6 @@
 - [File Share](https://github.com/hashankur/file-share) - A simple file sharing server
 - [Personal website/portfolio](https://hashankur.pages.dev/)
 - [Suriya Air Conditioning](https://suriya-aircon.pages.dev/)
-- [E-commerce app](https://github.com/hashankur/fullstack-crud) - Fullstack application with authentication
 
 ## Archived
 
